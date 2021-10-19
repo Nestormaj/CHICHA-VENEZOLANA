@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "impact";
+    src: url( ../fuentes/impact.ttf)
+    format("truetype");
+}
+
+h1{
+    font-family: impact;
+    color: #682d07;
+}
+h1:hover{
+    color: #6e2c00be;
+}
+body {
+    background-color: #E8F8F5;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color:rgb(226, 226, 226) ;
+    border-bottom: 2px solid #682d07;
+    width: 50%;
+    font-size: 25px;
+    margin-bottom:20px ;
+    padding-left: 10px;
+}
+
+ textarea:hover{
+    border: #682d07;
+}
+textarea{
+    border: 2px solid #682d07;
+    border-radius: 10px;
+}
+
+input:hover{
+    border: #682d07
+
+}
+
+
+header{
+    background-color: #FADBD8; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; height: 30px;
+    font-size: 2rem;
+    height: 100%;
+    margin-block-end: 0cm;
+    color: #6E2C00;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+nav{
+    background-color: #682d07;
+    display: flex;
+    width: 100%;
+   
+
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 5%;
+    font-size: 1.2rem;
+    color: #FADBD8;
+    
+    
+    }
+
+
+.navegation {
+    display: inline-flex;
+    margin-left: 5%;
+
+}
+.navegacion{
+    list-style: none;
+    margin: 1%;
+    color: white;
+    border-top: 1px solid white;
+    padding: 1%;
+    
+}
+
+.navegacion:hover{
+    border-top: 3px solid white;
+}
+
+button{
+   
+    height: 5.284015852047556vh;
+    border: none;
+    outline: none;
+    background-color: #682d07;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: 10px;
+
+
+}
+
+button:hover{
+    background-color: rgba(180, 3, 3, 0.8);
+}
+
+
+
+    footer
+{
+    display:flex;
+    background-color:  #6E2C00 ;
+    clear: both;
+    align-items: center;
+    height: 10vh;
+    overflow: auto;
+    box-sizing: border-box;
+}
+        
+    .logos
+{
+    display: flex;
+    padding-top: 0.5284015852047557vh;
+    padding-bottom: 0.5284015852047557vh;
+    padding-left: 45%;
+    
+}
+    
+    .fb
+{
+    width:  2.1875vw;
+    margin-right: 1.25vw;
+    margin-top:  1.0568031704095113vh;
+    cursor: pointer;
+}
+
+    .fb:hover{
+        width: 45px;
+    }
+    
+    .ig 
+{
+    width: 2.5vw;
+    margin-right:  0.625vw;
+    margin-top: 0.7926023778071334vh;
+    
+}
+
+    .ig:hover{
+        width: 50px;
+    }
+    
+    .twt
+    {
+        cursor: pointer;
+        width: 3.125vw; 
+    }
+
+    .twt:hover{
+        width: 60px;
+    }
+
+    .autor
+    {
+       color: white; 
+       margin-left: 30%;
+       font-size: 80%;
+       margin-right: 2%;
+    }
+    
+
+.autor:hover{
+    color: #FADBD8;
+}
+
+
+.vinculo{
+    color:#FADBD8;
+    text-decoration: none;
+}
+
+
+.volver{
+    color: black;
+    
+
+}
+
+.volver:hover{
+    font-size: 10px;
+}
+
+.wpp
+{ width: 5%;
+    position: fixed;
+    top: 80%;
+    right: 2%;
+    
+
+}
+
+.wpp:hover{
+    width: 90px;
+}
+
+.info{
+    color: #682d07;
+}
+
+.info:hover{
+    font-size: 30px;
+}
+
+
+.info::before{
+
+content: "-->";
+}
+
+.info::after{
+
+    content: "<--";
+    }
