@@ -38,7 +38,7 @@ header:hover{
     }
 
 
-nav{
+#navegacion{
     display: flex;
     background-color: #682d07;
     width: 100%;
@@ -116,7 +116,7 @@ hr{
 }
 
 @media screen and (max-width:1000px)  {
-    nav{
+    #navegacion{
         display: block;
         background-color: rgb(93, 35, 35);
         padding-top: 5px;
@@ -137,7 +137,7 @@ hr{
 
 
 
-section{
+#section{
     
     
     width: 70%;
@@ -343,7 +343,7 @@ aside{
     }
 
    
-footer
+#footer
     {
     display:flex;
     background-color:  #6E2C00 ;
